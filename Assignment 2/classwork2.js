@@ -12,4 +12,7 @@ function checkIntegers(arg1, arg2){
     }
 }
 
-checkIntegers(-2, -2);
+const arg1 = parseInt(prompt("Enter first number to examine: ", ));
+const arg2 = parseInt(prompt("Enter second number to examine ", ));
+
+sonsole.log(checkIntegers(arg1, arg2));
